@@ -9,7 +9,7 @@ libraryDependencies ++= Seq(
   "org.wvlet.airframe"     %% "airframe-log"            % "21.2.0",
   "org.slf4j"              %  "slf4j-nop"               % "2.0.0",
   "io.appium"              % "java-client"              % "8.3.0",
-  "de.halcony"             %% "appanalyzer"             % "0.0.4"
+  "de.halcony"             %% "appanalyzer"             % "1.5.1"
 )
 
 ThisBuild / resolvers ++= Seq(
