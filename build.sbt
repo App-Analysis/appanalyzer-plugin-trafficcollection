@@ -1,5 +1,5 @@
 name := "plugin-trafficcollection"
-ThisBuild / scalaVersion := "2.13.7"
+ThisBuild / scalaVersion := "2.13.10"
 ThisBuild / versionScheme := Some("semver-spec")
 organization := "de.halcony"
 
