@@ -15,4 +15,4 @@ $> sbt package
 ## Use
 
 Move the create jar file into the configured `plugin` folder of the [Appanalyzer](https://github.com/App-Analysis/scala-appanalyzer).
-Then the plugin is available for collection from the command line.
+Then the plugin is available for selection from the command line as a plugin to run app analysis with.
