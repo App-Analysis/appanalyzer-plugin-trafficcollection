@@ -16,3 +16,4 @@ $> sbt package
 
 Move the create jar file into the configured `plugin` folder of the [Appanalyzer](https://github.com/App-Analysis/scala-appanalyzer).
 Then the plugin is available for selection from the command line as a plugin to run app analysis with.
+The default configuration conducts a 60second traffic collection, however, passing the parameter time-ms via the appanalyzer can adjust that value with `-1` being infinite and requiring human interaction to stop.

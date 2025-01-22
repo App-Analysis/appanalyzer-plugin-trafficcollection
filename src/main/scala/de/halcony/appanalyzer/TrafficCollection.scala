@@ -12,7 +12,7 @@ class TrafficCollection() extends ActorPlugin with LogSupport {
   private var timespan : Option[Long] = None
 
   override def setParameter(parameter: Map[String, String]): ActorPlugin = {
-    timespan = Some(parameter.getOrElse("time-ms","-1").toLong)
+    timespan = Some(parameter.getOrElse("time-ms","60000").toLong)
     this
   }
 
